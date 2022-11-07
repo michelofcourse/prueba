@@ -1,0 +1,66 @@
+<!doctype html> 
+<html>
+ <html lang="en" {IF CLASSES}class="classes"{/IF}>
+     <head>
+   <meta charset="uft-8">
+          <link rel="stylesheet" href="/cs/web.css">
+       <meta name="viewport" content="initial-scale=1.0,
+width=device-width">
+  </head>
+  
+  <div class="fondo">
+  
+  
+   <body>
+          
+           <header>
+       
+  <div class="contenedor">
+   
+   <div imagen>
+  <img src="/imagen/xd.gif" class="i"/></div>
+  <div class="texto-encima"></div>
+ 
+     </div>
+     <div class="centrado">
+    
+    <h1> HABBO </h1>
+    
+  </div>
+
+      
+       </header>
+    
+     <nav>
+       
+<button class="nav-boton" onclick="accion()">MENU</button>
+       
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+          <a href="#" class="nav-enlace desaparece">Nosotros</a>
+            <a href="#" class="nav-enlace desaparece">Contacto</a>
+              <a href="#" class="nav-enlace desaparece">Servicios</a>
+              
+        </nav>
+   
+            
+              <script> function accion(){
+            console.log("arrerere");
+            var ancla = document.getElementsByClassName("nav-enlace");
+            for(var i = 0; i < ancla.length; i++){ancla[i].classList.toggle("desaparece");}
+        }
+       
+       
+       </script>
+       
+       
+      
+       <div class="CAJA1"></div>
+          <div class="CAJA2"></div>
+      <div class="CAJA3"></div>
+      <div class="CAJA4"> </div>
+      
+     <div id="cuadrado"></div> 
+           
+</body>
+
+</html>
